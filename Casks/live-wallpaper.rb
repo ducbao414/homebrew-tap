@@ -11,9 +11,4 @@ cask "live-wallpaper" do
   depends_on macos: ">= :ventura"
 
   app "LiveWallpaper.app"
-
-  zap trash: [
-    "~/Library/Containers/com.baonguyen.LiveWallpaper/Data/Library/Preferences/com.baonguyen.LiveWallpaper.plist",
-    "~/Library/Containers/com.baonguyen.LiveWallpaper/Data/Library/Application Support/",
-  ]
 end
